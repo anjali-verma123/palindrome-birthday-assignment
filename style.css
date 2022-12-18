@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+      margin: 0;
+      padding: 1rem;
+      box-sizing: border-box;
+      height: 100vh;
+      background-color: rgb(29, 35, 51);
+      color: white;
+    }
+    
+  main {
+      border: 2px solid white;
+      text-align: center;
+      height: 100%;
+      border-radius: 2rem;
+    }
+    
+  p {
+      text-align: center;
+      font-size: large;
+      padding: 0;
+    }
+  
+  input{
+    padding: 1rem;
+    border: 3px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    transition: background-color 0.5s;
+  }
+  input:hover{
+     background-color: rgb(29, 35, 51);
+  }
+  
+  button{
+    margin-top: 1rem;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 2rem;
+    background-color: white;
+    transition: background-color 0.5s;
+  }
+  button:hover{
+    background-color: rgb(29, 35, 51);
+  }
+  
+  #show-btn{
+    font-weight: bold;
+    color:  rgb(29, 35, 51);
+    transition: color 0.5s;
+  }
+  #show-btn:hover{
+    color: white
+  }
+  
+  #bday-input{
+    font-weight: bold;
+    color:  rgb(29, 35, 51);
+    transition: color 0.5s;
+  }
+  #bday-input:hover{
+    color: white
+  }
+  h1{
+    margin-top: 8rem;
+  }
+  
+    
